@@ -1,0 +1,29 @@
+# Local Claude CLI settings, local testing overrides, and credentials
+.claude/
+.claude.json
+.claude-credentials.json
+.claudeignore
+
+# API Keys, Tokens & Secret Files
+.env
+.env.*
+*.pem
+*.key
+*.secret
+
+# Node / Dependencies / Build Artifacts
+node_modules/
+dist/
+build/
+*.log
+
+# Databases & Local State
+*.db
+*.db-shm
+*.db-wal
+
+# Operating System & Editor Metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

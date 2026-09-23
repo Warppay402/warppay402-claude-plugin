@@ -1,0 +1,11 @@
+{
+  "name": "warppay402-gateway",
+  "description": "Multi-chain Web3 developer tools, PDF extraction, web scraping, and Aerodrome LP/swaps monetized via x402 USDC micropayments.",
+  "version": "1.0.0",
+  "author": {
+    "name": "WarpPay402 Studio",
+    "email": "warppay.402@gmail.com"
+  },
+  "homepage": "https://www.warppay402.com",
+  "repository": "https://github.com/Warppay402/warppay402-claude-plugin"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "warppay402": {
+      "url": "https://api.warppay402.com/mcp",
+      "type": "http"
+    }
+  }
+}
