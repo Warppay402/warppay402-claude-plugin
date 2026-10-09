@@ -74,6 +74,7 @@ This repository already includes the configured server manifest in `.mcp.json`.
 | `deploy_solana_contract` | $5.000 | Deployment | Deploys SPL escrow, cNFT badge, and Raydium vault contracts |
 | `deploy_arc_contract` | $5.000 | Deployment | Deploys escrow, bounty, and subscription contracts to Arc |
 
+
 ## Security and isolation
 
 This plugin separates tool execution from direct local shell or filesystem access:
@@ -85,23 +86,26 @@ This plugin separates tool execution from direct local shell or filesystem acces
 ## 📜 Discovery & Specification Endpoints
 
 ### 🤖 AI Agent & MCP Specs
-* **LLMs.txt Context Map:** `https://api.warppay402.com/llms.txt`
-* **MCP Gateway Endpoint:** `https://api.warppay402.com/mcp`
-* **MCP Server Manifest:** `https://api.warppay402.com/.well-known/mcp.json`
-* **x402 Commerce Manifest:** `https://api.warppay402.com/.well-known/x402-manifest.json`
-* **Agent Card Manifest (A2A Standard):** `https://api.warppay402.com/.well-known/agent.json`
-* **Agent Offers Catalog:** `https://api.warppay402.com/agent-offers.json`
-* **OpenAPI 3.1 Spec:** `https://api.warppay402.com/openapi.json`
-* **Glama MCP Connector:** `https://api.warppay402.com/.well-known/glama.json`
+
+- **LLMs.txt Context Map:** `https://api.warppay402.com/llms.txt`
+- **MCP Gateway Endpoint:** `https://api.warppay402.com/mcp`
+- **MCP Server Manifest:** `https://api.warppay402.com/.well-known/mcp.json`
+- **x402 Commerce Manifest:** `https://api.warppay402.com/.well-known/x402-manifest.json`
+- **Agent Card Manifest (A2A Standard):** `https://api.warppay402.com/.well-known/agent.json`
+- **Agent Offers Catalog:** `https://api.warppay402.com/agent-offers.json`
+- **OpenAPI 3.1 Spec:** `https://api.warppay402.com/openapi.json`
+- **Glama MCP Connector:** `https://api.warppay402.com/.well-known/glama.json`
 
 ### ⛽ ERC-4337 / ERC-7677 Paymaster Services
-* **Paymaster Quote Endpoint (v0.8):** `https://api.warppay402.com/api/v1/paymaster/quote`
-* **Paymaster RPC Relay (ERC-7677):** `https://api.warppay402.com/api/v1/paymaster/rpc`
+
+- **Paymaster Quote Endpoint (v0.8):** `https://api.warppay402.com/api/v1/paymaster/quote`
+- **Paymaster RPC Relay (ERC-7677):** `https://api.warppay402.com/api/v1/paymaster/rpc`
 
 ### 📊 Verification, Feeds & Wallet Utilities
-* **Live Settlement Telemetry:** `https://api.warppay402.com/api/v1/telemetry/settlements`
-* **Attestation Feed Index:** `https://api.warppay402.com/api/v1/feeds/index`
-* **Fiat-to-USDC Onramp:** `https://api.warppay402.com/onramp`
+
+- **Live Settlement Telemetry:** `https://api.warppay402.com/api/v1/telemetry/settlements`
+- **Attestation Feed Index:** `https://api.warppay402.com/api/v1/feeds/index`
+- **Fiat-to-USDC Onramp:** `https://api.warppay402.com/onramp`
 
 ## Repository metadata
 

@@ -14,7 +14,7 @@ Supported networks for x402 USDC micropayments:
 
 ---
 
-## Complete 21 Tool Catalog
+## Complete 29 Tool Catalog
 
 ### 1. Web & Document Extraction Intelligence
 - `web_scraper` ($0.001 USDC): Scrapes public webpages into clean Markdown.
@@ -42,7 +42,18 @@ Supported networks for x402 USDC micropayments:
 - `arc_dex_oracle` ($0.0010 USDC): Real-time ETH/USDC spot price resolver and DEX liquidity oracle for Arc.
 - `arc_cctp_bridge` ($0.2500 USDC): Bridges USDC cross-chain from Arc Mainnet to Solana, Base, Arbitrum, or Ethereum via Circle CCTP V2.
 
-### 5. Smart Contract Deployment Factories ($5.00 USDC)
+### 5. Real Estate, Oracles & Logistics Tools
+- `real_estate_calculator` ($0.0005 USDC): Calculates NOI, Cap Rate, Monthly Cash Flow, and DSCR for real estate deals.
+- `address_normalizer` ($0.0010 USDC): Standardizes informal address queries and resolves lat/lon coordinates.
+- `weather_oracle` ($0.0010 USDC): Live atmospheric conditions and drone delivery flight safety clearances.
+- `outage_oracle` ($0.0020 USDC): Real-time power grid, broadband ISP, and cellular network outages by ZIP code.
+- `forex_oracle` ($0.0005 USDC): Resolves real-time global foreign exchange fiat rates.
+- `shipping_rate_estimator` ($0.0010 USDC): Estimates USPS ground, priority, and express shipping rates.
+- `github_health_analyzer` ($0.0020 USDC): Inspects public GitHub repository stars, open issues, and licenses.
+- `property_comps_estimator` ($0.0050 USDC): Market valuation estimates, price-per-sqft comps, and annual tax estimates.
+- `ucp_deals_oracle` ($0.0010 USDC): Queries UCP merchant product catalogs, prices, and stock availability.
+
+### 6. Smart Contract Deployment Factories ($5.00 USDC)
 - `deploy_contract`: Deploys custom Escrow, Bounty, Subscription, or Pendle Yield contracts to Base Mainnet.
 - `deploy_solana_contract`: Initializes SPL Escrows, cNFT Badge Issuers, or Raydium Vaults on Solana.
 - `deploy_arc_contract`: Deploys custom Escrow, Bounty, or Subscription contracts to Arc Mainnet.

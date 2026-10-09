@@ -10,6 +10,7 @@
 *.pem
 *.key
 *.secret
+.mcp.json
 
 # Node / Dependencies / Build Artifacts
 node_modules/
