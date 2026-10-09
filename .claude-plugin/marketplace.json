@@ -1,0 +1,11 @@
+{
+  "name": "warppay402-marketplace",
+  "owner": "WarpPay402",
+  "plugins": [
+    {
+      "name": "warppay402-gateway",
+      "source": ".",
+      "description": "29 pay-per-use Web3 developer tools monetized via x402 USDC micropayments on Base, Solana, Arc, and Arbitrum One."
+    }
+  ]
+}
